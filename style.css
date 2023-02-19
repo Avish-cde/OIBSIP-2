@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 90vw;
+}
+.infocontainer{
+  display: flex;
+  background-color: rgb(8, 95, 107);
+  height:  50vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 50px;
+  justify-content: space-around ;
+  align-items: center;
+  
+}
+.devinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+}
+.hello{
+  font-size: 60px;
+  margin: 0%;
+  font-family: 'Gajraj One', cursive;
+}
+.name{
+  font-size: 40px;
+  /* font-weight: bold; */
+  font-family: 'Phudu', cursive;
+  margin: 0;padding: 0;
+}
+.info{
+  font-size: 25px;
+  font-family: 'Gajraj One', cursive;
+}
+.btn{
+  padding: 10px 0px;
+   
+}
+.btn button{
+    border-radius: 3px;
+    margin: 0px 5px;
+    font-size: 15px;
+    border: 2cap;
+    font-style: 'Nunito', sans-serif;
+    border-color: #2196F3;
+    color: dodgerblue;
+    cursor: pointer;
+    
+}
+.btn button:hover {
+  background: #2196F3;
+  color: white;
+  transition-duration: 0.5s;
+}
+.devpic img{
+  border-radius: 50% ;
+  width: 250px;
+  justify-content: center;
+  
+}
+.sidebar {
+  background-color: rgba(235, 228, 228, 0.909);
+  width: 150px;
+  padding: 10px;
+  font-size: 18px;
+  height: 100vh;
+  
+}
+.sidebar nav ul li {
+  list-style: none;
+  padding: 30px 0px;
+}
+.sidebar nav ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
+.contactform{
+  padding-top: 50px;
+}
+.contactform form{
+  margin:0px 200px;
+  padding: 40px;
+  background-color:rgba(235, 228, 228, 0.909) ;
+}
+.contactform form div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+
+}
+.contactform h1{
+  text-align: center;
+  font-family: 'Gajraj One', cursive;
+  font-size:40px;
+}
+#emailHelp{
+  font-size: 10px;
+  color: midnightblue ;
+}
