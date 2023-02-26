@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 85vw;
+}
+.main h1{
+  text-align: center;
+  font-family: "Gajraj One", cursive;
+}
+.sidebar i{
+  color: white;
+}
+.sidebar {
+  background-color: #343a40;
+  width: 170px;
+  padding: 10px;
+  font-size: 15px;
+  height: 125vh;
+  /* position: fixed; */
+  /* overflow:auto; */
+}
+.sidebar nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar nav ul li a i {
+  color: white;
+}
+.menu :hover {
+  font-weight: bold;
+  color: rgb(224, 214, 194);
+}
+.sidebar nav ul li {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.services_container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding: 40px;
+}
+.grid_item{
+  background-color: #e6e9ec;
+  border: 2px solid grey;
+  font-size: 20px;
+  font-family: "Phudu", cursive;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid_item i{
+  color: #dc3545;
+}
+.grid_item h2{
+  cursor: pointer;
+}
+

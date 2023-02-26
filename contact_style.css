@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 85vw;
+}
+.sidebar i{
+  color: white;
+}
+.sidebar {
+  background-color: #343a40;
+  width: 170px;
+  padding: 10px;
+  font-size: 15px;
+  height: 125vh;
+  /* position: fixed; */
+  /* overflow:auto; */
+}
+.sidebar nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar nav ul li a i {
+  color: white;
+}
+.menu :hover {
+  font-weight: bold;
+  color: rgb(224, 214, 194);
+}
+.sidebar nav ul li {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.contactform form {
+  margin: 0px 200px;
+  padding: 40px;
+  background-color: #e6e9ec;
+}
+.contactform h1 hr {
+  width: 70vw;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.writetome input {
+  height: 100px;
+}
+.contactform h1 {
+  text-align: center;
+  font-family: "Gajraj One", cursive;
+  font-size: 40px;
+}
+#emailHelp {
+  font-size: 10px;
+  color: midnightblue;
+}
+.button {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+.connect {
+  display: block;
+}
+.connect p {
+  text-align: center;
+}
+.connect p hr {
+  width: 20vw;
+}
+.connect a {
+  padding: 5px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+#form-check {
+  flex-direction: inherit;
+}

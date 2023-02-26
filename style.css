@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -13,105 +13,154 @@ body {
 .container {
   display: flex;
 }
-.main {
-  background-color: rgb(255, 255, 255);
-  width: 90vw;
+.sidebar i{
+  color: white;
 }
-.infocontainer{
+.main {
+  background-color: #b1b5b9;
+  width: 85vw;
   display: flex;
-  background-color: rgb(8, 95, 107);
-  height:  50vh;
+  flex-direction: column;
+}
+.infocontainer {
+  display: flex;
+  background-color: #dc3545;
+  height: 50vh;
   width: 80vw;
   margin: auto;
   margin-top: 50px;
-  justify-content: space-around ;
+  margin-bottom: 5px;
+  justify-content: space-around;
   align-items: center;
-  
 }
-.devinfo{
+.description {
+  display: flex;
+  padding: 30px;
+  padding-bottom: 10px;
+  width: 80vw;
+  background-color: #b1b5b9;
+  text-align: justify;
+  flex-direction: column;
+  border: #343a40;
+  position: inherit;
+}
+.devinfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* text-align: center; */
 }
-.hello{
+.hello {
   font-size: 60px;
   margin: 0%;
-  font-family: 'Gajraj One', cursive;
+  font-family: "Gajraj One", cursive;
 }
-.name{
+.name {
   font-size: 40px;
   /* font-weight: bold; */
-  font-family: 'Phudu', cursive;
-  margin: 0;padding: 0;
+  font-family: "Phudu", cursive;
+  margin: 0;
+  padding: 0;
 }
-.info{
+.info {
   font-size: 25px;
-  font-family: 'Gajraj One', cursive;
+  font-family: "Gajraj One", cursive;
 }
-.btn{
+.btn {
   padding: 10px 0px;
-   
 }
-.btn button{
-    border-radius: 3px;
-    margin: 0px 5px;
-    font-size: 15px;
-    border: 2cap;
-    font-style: 'Nunito', sans-serif;
-    border-color: #2196F3;
-    color: dodgerblue;
-    cursor: pointer;
-    
+.btn button {
+  border-radius: 3px;
+  margin: 0px 5px;
+  font-size: 15px;
+  font-style: "Nunito", sans-serif;
+  background-color: #343a40;
+  color: white;
+  text-shadow: 0cqb;
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  border: solid;
+  border-width: 1.4px;
 }
 .btn button:hover {
-  background: #2196F3;
+  background: #040709;
   color: white;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
+  border-color: white;
 }
-.devpic img{
-  border-radius: 50% ;
+/* .btn{
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.btn:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+} */
+.devpic img {
+  border-radius: 50%;
   width: 250px;
+  height: 200px;
   justify-content: center;
-  
 }
 .sidebar {
-  background-color: rgba(235, 228, 228, 0.909);
-  width: 150px;
+  background-color: #343a40;
+  width: 15vw;
   padding: 10px;
-  font-size: 18px;
-  height: 100vh;
-  
+  font-size: 15px;
+  height: 131vh;
+  /* position: fixed; */
+}
+.sidebar nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.menu :hover {
+  font-weight: bold;
+  color: rgb(224, 214, 194);
 }
 .sidebar nav ul li {
   list-style: none;
-  padding: 30px 0px;
+  padding: 10px 0px;
+  margin: 0px;
 }
-.sidebar nav ul li a{
+.sidebar nav ul li a i {
+  color: white;
+}
+.sidebar nav ul li a {
   text-decoration: none;
   color: black;
-  
-}
-.contactform{
-  padding-top: 50px;
-}
-.contactform form{
-  margin:0px 200px;
-  padding: 40px;
-  background-color:rgba(235, 228, 228, 0.909) ;
-}
-.contactform form div{
-  padding: 10px 0;
-  display: flex;
-  flex-direction: column;
-
-}
-.contactform h1{
-  text-align: center;
-  font-family: 'Gajraj One', cursive;
-  font-size:40px;
-}
-#emailHelp{
-  font-size: 10px;
-  color: midnightblue ;
 }

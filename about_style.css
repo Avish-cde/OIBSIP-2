@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Phudu:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+}
+.main {
+  /* display: flex; */
+  background-color: rgb(255, 255, 255);
+  width: 85vw;
+  /* justify-content: center ; */
+}
+.main h2{
+  text-align: center;
+  color: gray;
+}
+.main h2 i{
+  color: #dc3545;
+  size: 2rem;
+}
+.sidebar i{
+  color: white;
+}
+.heading h1{
+  text-align: center;
+  font-family: "Gajraj One", cursive;
+}
+.heading hr{
+  width: 70vw;
+}
+.skillstitle{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+.skillname{
+  padding-left: 40px;
+  font-family: "Phudu", cursive;
+}
+.skillnumber{
+  padding-left: 40px;
+  color: #dc3545;
+}
+.skillbar{
+  display: inline-block;
+  background-color: #f0828d;
+  height:18px;
+  margin-left: 80px;
+  width: 870px;
+}
+.skillbar_html{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 720px;
+  height:17px;
+}
+.skillbar_css{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 600px;
+  height:17px;
+}
+.skillbar_js{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 500px;
+  height:17px;
+}
+.skillbar_react{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 500px;
+  height:17px;
+}
+.skillbar_C{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 650px;
+  height:17px;
+}
+.skillbar_python{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 720px;
+  height:17px;
+}
+.skillbar_node{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 400px;
+  height:17px;
+}
+.skillbar_java{
+  /* margin-left: 40px; */
+  display: inline-block;
+  padding-left: 40px;
+  background-color: #dc3545;
+  width: 500px;
+  height:17px;
+}
+.sidebar {
+  background-color: #343a40;
+  width: 170px;
+  padding: 10px;
+  font-size: 15px;
+  height: 166vh;
+  /* position: fixed; */
+  /* overflow:auto; */
+}
+.sidebar nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar nav ul li a i {
+  color: white;
+}
+.menu :hover {
+  font-weight: bold;
+  color: rgb(224, 214, 194);
+}
+.sidebar nav ul li {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
